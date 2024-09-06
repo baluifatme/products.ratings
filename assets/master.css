@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+h1{
+    color: hsl(300, 43%, 22%);
+    white-space: pre;
+    word-break: break-word;
+}
+.text1{
+    white-space: pre;
+    word-break: break-word;
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    margin-left: 16%;
+}
+ratings{
+    color: hsl(300, 43%, 22%);
+    display: flex;
+    flex-direction: column;
+}
+.rate{
+    display: flex;
+    background-color: hsl(288, 24%, 96%,1);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.second{
+    margin-left: 20px;
+}
+.third{
+    margin-left: 40px;
+}
+.Star-text{
+    margin-right: 5px;
+}
+.star-rate{
+    margin-right: 5px;
+}
+.ratings .rate .starsecond{
+    margin-left: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-color: hsl(300, 43%, 22%);
+    margin: 10PX;
+    border-radius: 20px;
+}
+.box-header{
+    display: flex;
+}
+.box-header h2{
+     color: hsl(0, 0%, 100%);
+}
+.box-header p{
+    color:  hsl(333, 80%, 67%);
+   margin-top:10px;
+}
+img{
+    border-radius: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.box-info{
+    margin: 30px;
+    margin-left: 10px;
+}
+.box-text{
+    color: hsl(0, 0%, 100%) ;
+    white-space: pre;
+    word-break: break-word;
+    margin-left: -30px;
+    margin-right: 15px;
+}
+.profile2{
+    margin-top: 30px;
+}
+.profile3{
+    margin-top: 50px;
+}
+.profile1{
+    margin-left: 8%;
+}
